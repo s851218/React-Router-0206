@@ -6,7 +6,7 @@ import List from "../components/List";
 const api = "https://api.unsplash.com/search/photos";
 const accessId = import.meta.env.VITE_UNSPLASH_ACCESS;
 
-export default function AlbumLayout() {
+export function AlbumLayout() {
   const [list, setList] = useState([]);
 
   useEffect(() => {

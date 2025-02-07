@@ -6,7 +6,7 @@ import List from "../components/List";
 const api = "https://api.unsplash.com/search/photos";
 const accessId = import.meta.env.VITE_UNSPLASH_ACCESS;
 
-export default function AlbumSearch() {
+export function AlbumSearch() {
   const [search, setSearch] = useState("");
   const [list, setList] = useState([]);
 

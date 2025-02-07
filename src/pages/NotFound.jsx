@@ -7,8 +7,8 @@ export function NotFound() {
   useEffect(() => {
     setTimeout(() => {
       navigate("/");
-    }, 5000);
+    }, 3000);
   }, [navigate]);
 
-  return <div>這是不存在的頁面，5 秒後轉至首頁...</div>;
+  return <div>這是不存在的頁面，3 秒後轉至首頁...</div>;
 }

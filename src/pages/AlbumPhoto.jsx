@@ -5,7 +5,7 @@ import axios from "axios";
 const api = "https://api.unsplash.com/photos";
 const accessId = import.meta.env.VITE_UNSPLASH_ACCESS;
 
-export default function AlbumPhoto() {
+export function AlbumPhoto() {
   const { id } = useParams();
   const [photo, setPhoto] = useState({});
 
